@@ -1,5 +1,9 @@
 const homePage = () => {
-    console.log("This is the home page");
+
+    let div = document.createElement('div');
+    div.id = "home-content";
+
+    return div;
 };
 
 export {homePage};

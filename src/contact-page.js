@@ -1,5 +1,8 @@
 const contactPage = () => {
-    console.log("This is the contact page");
+    let div = document.createElement('div');
+    div.id = "contact-content";
+
+    return div;
 };
 
 export {contactPage};
