@@ -1,0 +1,45 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    flex-wrap: wrap;
+}
+
+.header-title {
+    font-family: 'Square Peg', cursive;
+    font-size: 3.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+.tab-buttons {
+    display: flex;
+    gap: 50px;
+    height: min-content;
+    align-self: center;
+}
+
+.tab-button {
+    font-family: inherit;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    padding: 5px 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button:hover {
+    background: lightblue;
+    color: white;
+}
+
+button:active {
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 0.7);
+}
