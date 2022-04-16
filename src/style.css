@@ -56,15 +56,13 @@ button:active {
 #home-content {
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
+    padding: 50px 10%;
     gap: 75px;
 }
 
 .sub-headline {
     font-size: 1.2rem;
     font-weight: 300;
-    padding-left: 10%;
-    padding-right: 10%;
     margin: 0;
 }
 
