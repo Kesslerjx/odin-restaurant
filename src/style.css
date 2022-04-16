@@ -20,6 +20,13 @@ header {
     background-color: white;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-top: solid 1px black;
+}
+
 .header-title {
     font-family: 'Square Peg', cursive;
     font-size: 3.5rem;
@@ -56,7 +63,7 @@ button:active {
 #home-content {
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
+    padding: 50px 0;
     gap: 75px;
 }
 
@@ -75,10 +82,10 @@ button:active {
 }
 
 .image-div > a {
-    margin-top: 5px;
+    margin-top: 10px;
     font-size: 0.8rem;
 }
 
-.image-div > a:visited {
+a:visited {
     color: lightblue;
 }

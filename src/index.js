@@ -6,6 +6,7 @@ import {homePage} from './home-page';
 import {contactPage} from './contact-page';
 import {menuPage} from './menu-page';
 import {header} from './header';
+import {footer} from './footer';
 
 const TAB = {
     HOME: 'home',
@@ -22,6 +23,7 @@ let content = document.getElementById('content');
 
 //Add header element to top of the body
 body.prepend(header());
+body.append(footer());
 
 //Add event listeners to buttons in header
 setEventListeners();
