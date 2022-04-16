@@ -7,7 +7,7 @@ const homePage = () => {
 
     //Create subheadline
     let subHeadline = document.createElement('p');
-    subHeadline.textContent = "You know when you're hungry and think \"Man I could use some good food right now.\" This restaurant is where you can get good food. That's why it's called The Good Stuff. You want the good stuff, we have the good stuff, come get the good stuff.";
+    subHeadline.textContent = "You know when you're hungry and think \"man I could use some good food right now.\" This restaurant is where you can get good food. That's why it's called The Good Stuff. You want the good stuff, we have the good stuff, come get the good stuff.";
     subHeadline.classList.add('sub-headline');
 
     //Create an example image with div and credit

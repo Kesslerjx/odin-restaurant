@@ -56,13 +56,14 @@ button:active {
 #home-content {
     display: flex;
     flex-direction: column;
-    padding: 50px 10%;
+    padding-top: 50px;
     gap: 75px;
 }
 
 .sub-headline {
     font-size: 1.2rem;
     font-weight: 300;
+    padding: 0 20%;
     margin: 0;
 }
 
@@ -70,6 +71,7 @@ button:active {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 0 calc(100vw * 0.20 - 180px);
 }
 
 .image-div > a {
