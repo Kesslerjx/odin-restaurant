@@ -8,7 +8,7 @@ const header = () => {
     //Create p element for header title
     let p = document.createElement('p');
     p.classList.add('header-title');
-    p.textContent = "Restaurant";
+    p.textContent = "The Good Stuff";
 
     //Create div for buttons
     let buttonsDiv = document.createElement('div');
