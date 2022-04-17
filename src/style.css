@@ -90,6 +90,10 @@ button:active {
     font-size: 0.8rem;
 }
 
+.image-div > img {
+    border-radius: 10px;
+}
+
 a:visited {
     color: lightblue;
 }

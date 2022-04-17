@@ -1,4 +1,5 @@
 import ExampleImage from './burger.jpeg';
+import InsideImage from './inside.jpeg';
 
 const homePage = () => {
 
@@ -14,15 +15,15 @@ const homePage = () => {
     let imageDiv = document.createElement('div');
     imageDiv.classList.add('image-div');
 
-    let exampleImage = new Image();
-    exampleImage.src = ExampleImage;
+    let insideImage = new Image();
+    insideImage.src = InsideImage;
 
     let imageCredit = document.createElement('a');
-    imageCredit.href = "https://www.pexels.com/@jonathanborba/";
+    imageCredit.href = "https://www.pexels.com/@igor-starkov-233202/";
     imageCredit.target = "_blank";
-    imageCredit.textContent = "@jonathanborba";
+    imageCredit.textContent = "@igor-starkov";
 
-    imageDiv.append(exampleImage, imageCredit);
+    imageDiv.append(insideImage, imageCredit);
 
     //Add elements to home div
     div.append(subHeadline, imageDiv);
