@@ -64,7 +64,7 @@ button:active {
     box-shadow: 0px 0px 5px rgb(0 0 0 / 0.7);
 }
 
-#home-content {
+#home-content, #menu-content {
     display: flex;
     flex-direction: column;
     padding: 50px 0;
@@ -85,15 +85,37 @@ button:active {
     padding: 0 calc(100vw * 0.20 - 180px);
 }
 
-.image-div > a {
+.image-div > a, .menu-image-div > a {
     margin-top: 10px;
     font-size: 0.8rem;
 }
 
-.image-div > img {
-    border-radius: 10px;
-}
-
 a:visited {
     color: lightblue;
+}
+
+.menu-item {
+    display: flex;
+    padding: 0 10%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-item > p {
+    height: 100%;
+    padding: 0 20px;
+    font-weight: 300;
+}
+
+.menu-image-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+}
+
+.menu-image {
+    width: 100%;
+    height: auto;
 }

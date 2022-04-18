@@ -1,4 +1,3 @@
-import ExampleImage from './burger.jpeg';
 import InsideImage from './inside.jpeg';
 
 const homePage = () => {
