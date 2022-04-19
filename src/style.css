@@ -97,14 +97,19 @@ a:visited {
 .menu-item {
     display: flex;
     padding: 0 10%;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 .menu-item > p {
-    height: 100%;
+    flex: 1;
+    min-width: 300px;
     padding: 0 20px;
     font-weight: 300;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    margin: 0;
 }
 
 .menu-image-div {
@@ -112,7 +117,8 @@ a:visited {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width: 400px;
+    min-width: 300px;
+    flex: 0.8;
 }
 
 .menu-image {
