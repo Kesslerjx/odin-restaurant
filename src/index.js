@@ -15,7 +15,7 @@ const TAB = {
 }
 
 //Set tab to home to start
-let currentTab = TAB.HOME;
+let currentTab = TAB.CONTACT;
 
 //Get required HTML elements
 let body    = document.querySelector('body');

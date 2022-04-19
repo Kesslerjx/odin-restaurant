@@ -64,7 +64,7 @@ button:active {
     box-shadow: 0px 0px 5px rgb(0 0 0 / 0.7);
 }
 
-#home-content, #menu-content {
+#home-content, #menu-content, #contact-content {
     display: flex;
     flex-direction: column;
     padding: 50px 0;
@@ -131,4 +131,24 @@ a:visited {
     height: auto;
     border-radius: 20px;
     box-shadow: 0px 0px 5px rgb(0 0 0 / 0.5);
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20%;
+    gap: 10px;
+}
+
+.contact-section p {
+    margin: 0;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.section-text {
+    font-size: 1.1rem;
 }
