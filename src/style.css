@@ -152,3 +152,33 @@ a:visited {
 .section-text {
     font-size: 1.1rem;
 }
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form input {
+    padding: 5px;
+    border-radius: 5px;
+    border: solid;
+}
+
+.contact-form textarea {
+    padding: 5px;
+    font-family: inherit;
+    height: 5rem;
+    resize: vertical;
+    border-radius: 5px;
+    border: solid;
+}
+
+.contact-button {
+    background: lightblue;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}

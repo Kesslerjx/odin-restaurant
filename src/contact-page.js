@@ -44,9 +44,19 @@ const emailSection = () => {
     let form     = document.createElement('div');
     let name     = document.createElement('input');
     let email    = document.createElement('input');
-    let emailMsg = document.createElement('input');
+    let emailMsg = document.createElement('textarea');
     let button   = document.createElement('button');
     let errorMsg = document.createElement('p');
+
+    //Set input types
+    name.type  = 'text';
+    email.type = 'email';
+    button.type = 'submit';
+
+    //Set names
+    name.name = "user_name";
+    email.name = "user_email";
+    emailMsg.name = "user_message";
 
     //Add content
     title.textContent = 'Email';
@@ -59,12 +69,14 @@ const emailSection = () => {
     //Add classes
     div.classList.add('contact-section');
     title.classList.add('section-title');
+    form.classList.add('contact-form');
+    button.classList.add('contact-button');
 
     //Add inputs to form
-    form.append(name, email, emailMsg);
+    form.append(name, email, emailMsg, button);
 
     //Add content to div
-    div.append(title, text, form, button, errorMsg);
+    div.append(title, text, form, errorMsg);
 
     return div;
 
