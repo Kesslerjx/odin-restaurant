@@ -157,9 +157,10 @@ a:visited {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    justify-content: center;
 }
 
-.contact-form input {
+.contact-field {
     padding: 5px;
     border-radius: 5px;
     border: solid;
@@ -181,4 +182,8 @@ a:visited {
     border-radius: 10px;
     border: none;
     text-align: center;
+}
+
+.contact-button:hover {
+    color: white;
 }
