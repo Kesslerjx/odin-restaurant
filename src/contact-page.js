@@ -79,6 +79,11 @@ const emailSection = () => {
     //Add content to div
     div.append(title, text, form);
 
+    //Set button listener
+    button.addEventListener('click', function (event) {
+        event.preventDefault(); //Stop it from submitting the form
+    })
+
     return div;
 
 };
